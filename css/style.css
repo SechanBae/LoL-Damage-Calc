@@ -1,0 +1,20 @@
+body{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "champion-l-panel effects-panel champion-r-panel"
+    ". bottom-panel .";
+}
+.champion-l-panel{
+    grid-area:champion-l-panel;
+}
+.champion-r-panel{
+    grid-area:champion-r-panel;
+}
+.effects-panel{
+    grid-area:effects-panel;
+}
+.bottom-panel{
+    grid-area:bottom-panel;
+}

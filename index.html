@@ -5,22 +5,11 @@
     <title>League Damage Calculator</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/load.js"></script>
 </head>
 
 <body>
-    <div class="abilities-list-group">
-        <div class="abilities-list-subgroup-l">
-
-        </div>
-        <div class="abilities-list-subgroup-r">
-            
-        </div>
-    </div>
-
-    <div class="result-group">
-        
-    </div>
     <div class="champion-l-panel">
         <select name="champion-l" id="champion-l">
             
@@ -92,22 +81,22 @@
             </table>
         </div>
         <div class="item-list">
-            <select name="item-l-1" id="item-l-1">
+            <select name="item1-l" id="item1-1">
                 <option value="None">None</option>
             </select>
-            <select name="item-l-2" id="item-l-2">
+            <select name="item2-l" id="item2-l">
                 <option value="None">None</option>
             </select>
-            <select name="item-l-3" id="item-l-3">
+            <select name="item3-l" id="item3-l">
                 <option value="None">None</option>
             </select>
-            <select name="item-l-4" id="item-l-4">
+            <select name="item4-l" id="item4-l">
                 <option value="None">None</option>
             </select>
-            <select name="item-l-5" id="item-l-5">
+            <select name="item5-l" id="item5-l">
                 <option value="None">None</option>
             </select>
-            <select name="item-l-6" id="item-l-6">
+            <select name="item6-l" id="item6-l">
                 <option value="None">None</option>
             </select>
         </div>
@@ -118,7 +107,111 @@
     </div>
 
     <div class="champion-r-panel">
+        <select name="champion-r" id="champion-r">
+            
+        </select>
+        <div class="champion-information">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>HP</td>
+                        <td><label id="hp-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>Mana</td>
+                        <td><label id="mana-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>AD</td>
+                        <td><label id="ad-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>AS</td>
+                        <td><label id="as-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>AP</td>
+                        <td><label id="ap-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>AH</td>
+                        <td><label id="ah-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>Armor</td>
+                        <td><label id="armor-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>Magic-Resist</td>
+                        <td><label id="mr-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>Move-Speed</td>
+                        <td><label id="ms-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>Lethality</td>
+                        <td><label id="lethality-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>Armor-Pen</td>
+                        <td><label id="armorpen-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>Magic-Pen-Flat</td>
+                        <td><label id="magicpenflat-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>Magic-Pen-Perc</td>
+                        <td><label id="magicpenper-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>Lifesteal</td>
+                        <td><label id="lifesteal-r"></label></td>
+                    </tr>
+                    <tr>
+                        <td>Omnivamp</td>
+                        <td><label id="omnivamp-r"></label></td>
+                    </tr>   
+                </tbody>
+            </table>
+        </div>
+        <div class="item-list">
+            <select name="item1-r" id="item1-r">
+                <option value="None">None</option>
+            </select>
+            <select name="item2-r" id="item2-r">
+                <option value="None">None</option>
+            </select>
+            <select name="item3-r" id="item3-r">
+                <option value="None">None</option>
+            </select>
+            <select name="item4-r" id="item4-r">
+                <option value="None">None</option>
+            </select>
+            <select name="item5-r" id="item5-r">
+                <option value="None">None</option>
+            </select>
+            <select name="item6-r" id="item6-r">
+                <option value="None">None</option>
+            </select>
+        </div>
+    </div>
+    
+    <div class="bottom-panel">
 
+        <div class="abilities-list-group">
+            <div class="abilities-list-subgroup-l">
+
+            </div>
+            <div class="abilities-list-subgroup-r">
+                
+            </div>
+        </div>
+
+        <div class="result-group">
+            
+        </div>
     </div>
 </body>
 
